@@ -39,12 +39,12 @@ import (
 
 	tls "github.com/refraction-networking/utls"
 
-	. "github.com/saucesteals/fhttp"
-	"github.com/saucesteals/fhttp/httptest"
-	"github.com/saucesteals/fhttp/httptrace"
-	"github.com/saucesteals/fhttp/httputil"
-	"github.com/saucesteals/fhttp/internal"
-	"github.com/saucesteals/fhttp/internal/nettrace"
+	. "github.com/ManuCiao10/fhttp"
+	"github.com/ManuCiao10/fhttp/httptest"
+	"github.com/ManuCiao10/fhttp/httptrace"
+	"github.com/ManuCiao10/fhttp/httputil"
+	"github.com/ManuCiao10/fhttp/internal"
+	"github.com/ManuCiao10/fhttp/internal/nettrace"
 
 	"golang.org/x/net/http/httpguts"
 )

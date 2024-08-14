@@ -12,9 +12,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/saucesteals/fhttp/httptest"
+	"github.com/ManuCiao10/fhttp/httptest"
 
-	http "github.com/saucesteals/fhttp"
+	http "github.com/ManuCiao10/fhttp"
 )
 
 func TestRequest(t *testing.T) {

@@ -47,8 +47,8 @@ import (
 
 	tls "github.com/refraction-networking/utls"
 
-	http "github.com/saucesteals/fhttp"
-	"github.com/saucesteals/fhttp/http2/hpack"
+	http "github.com/ManuCiao10/fhttp"
+	"github.com/ManuCiao10/fhttp/http2/hpack"
 
 	"golang.org/x/net/http/httpguts"
 )

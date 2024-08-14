@@ -15,7 +15,7 @@ import (
 
 	tls "github.com/refraction-networking/utls"
 
-	"github.com/saucesteals/fhttp/internal/nettrace"
+	"github.com/ManuCiao10/fhttp/internal/nettrace"
 )
 
 // unique type to prevent assignment.

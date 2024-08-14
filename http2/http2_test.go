@@ -15,9 +15,9 @@ import (
 	"testing"
 	"time"
 
-	http "github.com/saucesteals/fhttp"
+	http "github.com/ManuCiao10/fhttp"
 
-	"github.com/saucesteals/fhttp/http2/hpack"
+	"github.com/ManuCiao10/fhttp/http2/hpack"
 )
 
 var knownFailing = flag.Bool("known_failing", false, "Run known-failing tests.")

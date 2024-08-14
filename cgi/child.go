@@ -20,7 +20,7 @@ import (
 
 	tls "github.com/refraction-networking/utls"
 
-	http "github.com/saucesteals/fhttp"
+	http "github.com/ManuCiao10/fhttp"
 )
 
 // Request returns the HTTP request as represented in the current
