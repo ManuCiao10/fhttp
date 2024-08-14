@@ -10,6 +10,7 @@ import (
 	"compress/gzip"
 	"crypto/rand"
 	"fmt"
+	"github.com/ManuCiao10/fhttp/internal"
 	"go/token"
 	"io"
 	"net/url"
@@ -17,8 +18,6 @@ import (
 	"regexp"
 	"strings"
 	"testing"
-
-	"github.com/ManuCiao10/fhttp/internal"
 )
 
 type respTest struct {

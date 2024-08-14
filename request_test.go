@@ -10,6 +10,7 @@ import (
 	"context"
 	"crypto/rand"
 	"encoding/base64"
+	"errors"
 	"fmt"
 	"io"
 	"math"
@@ -21,8 +22,8 @@ import (
 	"strings"
 	"testing"
 
-	. "github.com/Manuciao10/fhttp"
-	"github.com/Manuciao10/fhttp/httptest"
+	. "github.com/ManuCiao10/fhttp"
+	"github.com/ManuCiao10/fhttp/httptest"
 )
 
 func TestQuery(t *testing.T) {
@@ -969,9 +970,9 @@ func testMissingFile(t *testing.T, req *Request) {
 		t.Errorf("FormFile file = %v, want nil", f)
 	}
 	if fh != nil {
-		t.Errorf("FormFile file header = %q, want nil", fh)
+		t.Errorf("FormFile file header = %v, want nil", fh)
 	}
-	if err != ErrMissingFile {
+	if !errors.Is(err, ErrMissingFile) {
 		t.Errorf("FormFile err = %q, want ErrMissingFile", err)
 	}
 }

@@ -10,6 +10,7 @@ import (
 	"bytes"
 	"errors"
 	"fmt"
+	"github.com/ManuCiao10/fhttp/internal"
 	"io"
 	"io/ioutil"
 	"net"
@@ -17,8 +18,6 @@ import (
 	"testing"
 
 	tls "github.com/refraction-networking/utls"
-
-	"github.com/ManuCiao10/fhttp/internal"
 )
 
 // Issue 15446: incorrect wrapping of errors when server closes an idle connection.

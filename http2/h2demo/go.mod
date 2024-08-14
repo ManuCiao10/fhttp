@@ -1,8 +1,6 @@
 module golang.org/x/net/http2/h2demo
 
-go 1.21
-
-toolchain go1.21.6
+go 1.21.6
 
 require (
 	cloud.google.com/go v0.38.0

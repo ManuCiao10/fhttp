@@ -6,12 +6,11 @@ package http
 
 import (
 	"bytes"
+	"github.com/ManuCiao10/fhttp/internal/race"
 	"reflect"
 	"runtime"
 	"testing"
 	"time"
-
-	"github.com/ManuCiao10/fhttp/internal/race"
 )
 
 var headerWriteTests = []struct {

@@ -9,6 +9,7 @@ import (
 	"bytes"
 	"errors"
 	"fmt"
+	"github.com/ManuCiao10/fhttp/internal"
 	"io"
 	"net/textproto"
 	"reflect"
@@ -19,7 +20,6 @@ import (
 	"time"
 
 	"github.com/ManuCiao10/fhttp/httptrace"
-	"github.com/ManuCiao10/fhttp/internal"
 
 	"golang.org/x/net/http/httpguts"
 )
